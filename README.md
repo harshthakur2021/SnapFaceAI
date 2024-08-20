@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# SnapFaceAI Using React.js and TensorFlow.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+SnapFaceAI is an advanced web application built using React.js and TensorFlow.js that enables real-time facial landmark detection and manipulation. This project aims to provide users with a fun and interactive platform to explore facial recognition technology, apply filters, and experiment with AI-driven facial transformations directly in their web browsers.
 
-## Available Scripts
+## Key Features
 
-In the project directory, you can run:
+### Real-Time Facial Landmark Detection
 
-### `npm start`
+1. **Facial Recognition:**
+   - Utilizes TensorFlow.js models to detect key facial landmarks such as eyes, nose, mouth, and jawline in real time.
+   - Employs pre-trained deep learning models for accurate and efficient facial feature detection.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **Interactive User Interface:**
+   - **Live Camera Feed:** Users can use their webcam to capture live video feeds for real-time facial analysis.
+   - **Responsive Design:** The application is optimized for both desktop and mobile devices, providing a seamless experience across platforms.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+### Frontend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **React.js:** For building the dynamic and interactive user interface.
+2. **TensorFlow.js:** For client-side machine learning and real-time facial landmark detection.
+3. **HTML5 & CSS3:** For structuring and styling the application.
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Clone the Repository
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```sh
+git clone https://github.com/harshthakur2021/SnapFaceAI.git
+cd SnapFaceAI
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
