@@ -30,11 +30,4 @@ SnapFaceAI is an advanced web application built using React.js and TensorFlow.js
 git clone https://github.com/harshthakur2021/SnapFaceAI.git
 cd SnapFaceAI
 
-Install Dependencies
-sh
-Copy code
-npm install
-Start the Development Server
-sh
-Copy code
-npm start
+
